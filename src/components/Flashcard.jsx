@@ -14,7 +14,7 @@ const Flashcard = ({ card, onPrev, onNext, currentIndex, total }) => {
 
       <div className={`card ${flipped ? "flipped" : ""}`}>
   
-  <div className="card-inner">   {/* 👈 MUST EXIST */}
+  <div className="card-inner">   
 
     <div className="card-face front">
       <h3>{card.question}</h3>
